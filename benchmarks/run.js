@@ -10,8 +10,8 @@ import { pool as Pool } from "./pool.js";
 
 /** @type {Record<string, import("./project.js").BenchmarkProject>} */
 const BENCHMARKS = {
-  paraglide_new: benchmarkParaglide,
-  //i18next: benchmarkI18Next,
+  paraglide: benchmarkParaglide,
+  i18next: benchmarkI18Next,
 };
 
 
